@@ -64,7 +64,7 @@ function printQuote(){
   
   if ( ranQuote.citation !== undefined ) {
     html = html + `<span class="citation">${ranQuote.citation}</span>`;
-  } else if ( ranQuote.year !== undefined ) {
+  } if ( ranQuote.year !== undefined ) {
     html = html + `<span class="year">${ranQuote.year}</span>`;
   }
 
